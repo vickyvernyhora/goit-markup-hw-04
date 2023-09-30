@@ -435,7 +435,7 @@ h6 {
   overflow: auto;
 }
 
-.portfolio-item:hover.overlay {
+.portfolio-item:hover .overlay {
   transform: translateY(0);
 }
 
