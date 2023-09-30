@@ -7,6 +7,12 @@ body {
   font-size: 16px;
 }
 
+a {
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 a,
 a:hover,
 a:active {
@@ -157,7 +163,7 @@ h6 {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/hero-section/people-office\ 1.jpg);
+    url(../images/people-office\ 1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
