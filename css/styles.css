@@ -441,8 +441,8 @@ h6 {
 }
 
 /* Footer */
+
 .footer {
-  display: flex;
   background-color: #2e2f42;
   padding: 100px 0;
 }
@@ -452,8 +452,7 @@ h6 {
   align-items: baseline;
 }
 
-.container-logo {
-  max-width: 264px;
+.footer-left-block {
   margin-right: 120px;
 }
 
@@ -489,6 +488,15 @@ h6 {
   flex-shrink: 0;
 }
 
+.footer-socials-text {
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  max-width: 96px;
+  font-weight: 500px;
+  margin-bottom: 16px;
+}
+
 .footer-social-link {
   display: flex;
   justify-content: center;
@@ -511,13 +519,4 @@ h6 {
   width: 24px;
   height: 24px;
   fill: #f4f4fd;
-}
-
-.footer-socials-text {
-  color: #fff;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  max-width: 96px;
-  font-weight: 500px;
-  margin-bottom: 16px;
 }
