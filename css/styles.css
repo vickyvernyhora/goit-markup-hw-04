@@ -170,6 +170,7 @@ h6 {
   text-align: center;
   padding: 188px 0;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -445,10 +446,9 @@ h6 {
   padding: 100px 0;
 }
 
-.container-footer-inner {
+.footer.container {
   display: flex;
   align-items: baseline;
-  max-width: 1440px;
 }
 
 .container-logo {
@@ -480,25 +480,36 @@ h6 {
   max-width: 264px;
 }
 
-.footer-socials-list {
+.footer-social-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 16px;
+  flex-shrink: 0;
 }
 
-.footer-link {
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   width: 40px;
   height: 40px;
+  background-color: #4d5ae5;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-socials-link {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  border-radius: 50%;
-  align-items: center;
-  justify-content: center;
-  fill: #4d5ae5;
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-links .icon {
+  width: 24px;
+  height: 24px;
+  fill: #f4f4fd;
 }
 
 .footer-socials-text {
@@ -507,4 +518,5 @@ h6 {
   letter-spacing: 0.02em;
   max-width: 96px;
   font-weight: 500px;
+  margin-bottom: 16px;
 }
